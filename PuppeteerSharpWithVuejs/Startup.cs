@@ -25,7 +25,7 @@ namespace PupperteerSharpWithVuejs
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddSpaStaticFiles(configuration =>
             {
-                configuration.RootPath = "puppeteer-sharp";
+                configuration.RootPath = "puppeteer-sharp-with-vuejs";
             });
         }
 
