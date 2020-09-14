@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using PuppeteerSharp.Core.Instagram;
+using PuppeteerSharp.Core.LoteriaCaixa;
 
 namespace PuppeteerSharp.Core
 {
@@ -9,6 +10,7 @@ namespace PuppeteerSharp.Core
            this IServiceCollection service)
         {
             service.AddInstagram();
+            service.AddLoteriaCaixa();
         }
     }
 }

@@ -3,7 +3,7 @@ using PuppeteerSharp.Core.Instagram.Service;
 
 namespace PuppeteerSharp.Core.Instagram
 {
-    public static class InstagramExtension
+    public static class LoteriaCaixaExtension
     {
 
         public static void AddInstagram(
